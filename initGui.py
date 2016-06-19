@@ -1,9 +1,8 @@
 #gui mode
 
 import NatronEngine
+import scan2grey
 NatronEngine.natron.appendToNatronPath("~/natronset/python")
 
-def scan2grey():
-	pass
 
-NatronGui.natron.addMenuCommand("lazypic/Scripts/Scan2grey","scan2grey")
+NatronGui.natron.addMenuCommand("lazypic/Scripts/Scan2grey","scan2grey.scan2grey")
