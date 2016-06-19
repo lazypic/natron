@@ -1,3 +1,7 @@
 
+import NatronEngine
+import NatronGui
+
 def scan2grey():
-	print "test"
+	app = NatronGui.natron.getGuiInstance(0)
+	t = app.createNode("fr.inria.openfx.ReadOIIO")
