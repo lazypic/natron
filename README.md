@@ -6,6 +6,11 @@
 cd ~ && git clone http://github.com/lazypic/natronset
 ```
 
+#### Install Ocio
+```
+git clone https://github.com/imageworks/OpenColorIO-Configs
+```
+
 ####info
 - homepage : https://natron.inria.fr
 - source code : https://github.com/MrKepzie/Narton
