@@ -6,9 +6,16 @@
 cd ~ && git clone http://github.com/lazypic/natronset
 ```
 
-#### Install Ocio
+#### OCIO설치하고 Natron에 물리기
+- OpenColorIO를 다운로드 받습니다.
 ```
+cd ~
 git clone https://github.com/imageworks/OpenColorIO-Configs
+```
+
+- OSX라면 .bash_profile에 아래줄을 추가합니다.
+```
+export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
 ####info
