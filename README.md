@@ -18,6 +18,9 @@ git clone https://github.com/imageworks/OpenColorIO-Configs
 export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
+#### 레퍼런스
+- http://www.vfxplatform.com
+
 ####info
 - homepage : https://natron.inria.fr
 - source code : https://github.com/MrKepzie/Narton
