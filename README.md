@@ -3,7 +3,7 @@
 
 #### Install
 ```
-cd ~ && git clone http://github.com/lazypic/natronset
+cd ~ && git clone http://github.com/lazypic/natron
 ```
 
 #### OCIO설치하고 Natron에 물리기
