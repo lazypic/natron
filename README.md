@@ -18,6 +18,23 @@ git clone https://github.com/imageworks/OpenColorIO-Configs
 export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
+#### Plugin
+Natron 사용자는 플러그인을 한곳에 모아서 사용합니다.
+https://github.com/NatronVFX/natron-plugins 리포지터리이며,
+아래처럼 macOS에서 셋팅하면 자동으로 모든 플러그인이 설치됩니다.
+
+```
+sudo mkdir -p "/Library/Application Support/Natron/Plugins"
+cd "/Library/Application Support/Natron/Plugins"
+sudo git clone https://github.com/NatronGitHub/natron-plugins.git
+```
+
+플러그인 업데이트는 다음처럼 진행합니다.
+```
+cd "/Library/Application Support/Natron/Plugins"
+sudo git pull
+```
+
 #### 레퍼런스
 - http://www.vfxplatform.com
 
