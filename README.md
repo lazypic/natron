@@ -19,6 +19,8 @@ export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
 #### Plugin
+![natron_plugins](https://user-images.githubusercontent.com/1149996/47964518-a5628b00-e07e-11e8-86da-1cb59c6e4c96.png)
+
 Natron 사용자는 플러그인을 한곳에 모아서 사용합니다.
 https://github.com/NatronVFX/natron-plugins 리포지터리이며,
 아래처럼 macOS에서 셋팅하면 자동으로 모든 플러그인이 설치됩니다.
