@@ -40,7 +40,7 @@ sudo git pull
 #### 레퍼런스
 - http://www.vfxplatform.com
 
-####info
+#### info
 - homepage : https://natron.inria.fr
 - source code : https://github.com/MrKepzie/Narton
 - python api : https://natron.readthedocs.org/en/workshop/startupscripts.html#examples
